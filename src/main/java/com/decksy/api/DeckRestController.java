@@ -17,7 +17,7 @@ public class DeckRestController {
 
    @Autowired private DeckService deckService;
 
-   @GetMapping(value = "/")
+   @GetMapping(value = "/all")
    public List<Deck> findAll() {
       return deckService.findAll();
    }
