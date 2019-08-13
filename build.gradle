@@ -41,6 +41,6 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.projectKey', 'decksy'
+        property 'sonar.projectKey', 'mavarazo_decksy'
     }
 }
