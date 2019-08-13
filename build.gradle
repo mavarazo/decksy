@@ -41,6 +41,6 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.projectKey', 'com.sonarqube.examples.java-gradle-travis-project'
+        property 'sonar.projectKey', 'decksy'
     }
 }
