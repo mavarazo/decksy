@@ -18,7 +18,13 @@ public class DeckServiceImpl implements DeckService {
     return deckRepository.findAll();
   }
 
+  @Override
   public Optional<Deck> findById(Long id) {
      return deckRepository.findById(id);
+  }
+
+  @Override
+  public Deck save(Deck deck) {
+    return deckRepository.save(deck);
   }
 }

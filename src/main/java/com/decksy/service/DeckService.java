@@ -11,4 +11,6 @@ public interface DeckService {
   List<Deck> findAll();
 
   Optional<Deck> findById(Long id);
+
+  Deck save(Deck deck);
 }

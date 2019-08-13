@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
 
 @Entity
@@ -17,6 +18,7 @@ public class Deck {
   @CreationTimestamp private LocalDate created;
   @UpdateTimestamp private LocalDate updated;
 
+  @NotBlank(message = "Name is mandatory")
   private String name;
   private String notes;
 

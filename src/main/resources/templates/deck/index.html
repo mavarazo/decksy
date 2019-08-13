@@ -23,19 +23,30 @@
             <div class="box">
                 <div class="box-header">
                     <!--h3 class="box-title">Decklist</h3-->
+
+                    <div class="box-tools">
+                        <form action="#" th:action="@{/deck/}" th:object="${deck}" method="post">
+                            <div class="input-group">
+                                <input type="text" class="form-control pull-right" th:field="*{name}" id="name" placeholder="Name">
+                                <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>
+
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-primary btn-flat"><i class="fa fa-plus"></i> Add Deck</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
                     <table id="deckTable" class="table table-bordered table-hover">
                         <thead>
                         <tr>
-                            <th>#</th>
                             <th>Name</th>
                         </tr>
                         </thead>
                         <tfoot>
                         <tr>
-                            <th>#</th>
                             <th>Name</th>
                         </tr>
                         </tfoot>
@@ -59,8 +70,12 @@
                     'dataSrc': ''
                 },
                 'columns': [
-                    { 'data': 'id' },
-                    { 'data': 'name' },
+                    {
+                        'data': 'name',
+                         'render': function ( data, type, row, meta ) {
+                            return '<a href="/deck/' + row.id + '">' + data + '</a>';
+                        }
+                    },
                 ],
             })
         })
