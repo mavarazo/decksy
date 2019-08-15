@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Table(name = "decks")
@@ -61,4 +62,10 @@ public class Deck {
     this.notes = notes;
     return this;
   }
+  
+  public List<Card> getDecklist(String DeckID) {
+	  List<Card> deckList = DeckList.getDeckList();
+	  return deckList;
+  }
+
 }
