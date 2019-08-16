@@ -21,20 +21,19 @@ public class Card {
   @CreatedDate private LocalDate created;
   @LastModifiedDate private LocalDate updated;
 
-  @OneToMany(mappedBy = "cards")
+  @OneToMany(mappedBy = "card")
   private Set<DeckCard> deckCards;
 
   @NotBlank private int multiverseId;
-
   private String name;
   private String layout;
   private double cmc;
-  private List<Color> colors;
+  @OneToMany private List<Color> colors;
   private String manaCost;
   private String type;
-  private List<Type> supertypes;
-  private List<Type> types;
-  private List<Type> subtypes;
+  @OneToMany private List<Type> supertypes;
+  @OneToMany private List<Type> types;
+  @OneToMany private List<Type> subtypes;
   private String rarity;
   private String power;
   private String toughness;

@@ -1,5 +1,7 @@
 package com.decksy.controller;
 
+import com.decksy.dto.DeckDto;
+import com.decksy.mapper.DeckMapper;
 import com.decksy.model.Deck;
 import com.decksy.service.DeckService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +25,7 @@ public class DeckController {
 
    @GetMapping(value = "/")
    public String index(Model model) {
-      model.addAttribute("deck", new Deck());
+      model.addAttribute("deck", new DeckDto());
       return "deck/index";
    }
 
@@ -39,12 +41,12 @@ public class DeckController {
    }
 
    @PostMapping(value = "/")
-   public String create(@Valid Deck deck, BindingResult result) {
+   public String create(@Valid DeckDto deck, BindingResult result) {
       if (result.hasErrors()) {
          return "deck/index";
       }
 
-      return "redirect:/deck/" + deckService.save(deck).getId();
+      return "redirect:/deck/" + deckService.save(DeckMapper.INSTANCE.toModel(deck)).getId();
    }
 
 

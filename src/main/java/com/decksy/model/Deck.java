@@ -24,7 +24,7 @@ public class Deck {
   private String name;
   private String notes;
 
-  @OneToMany(mappedBy = "decks")
+  @OneToMany(mappedBy = "deck")
   private Set<DeckCard> deckCards;
 
   public long getId() {
