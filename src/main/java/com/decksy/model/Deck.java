@@ -1,27 +1,31 @@
 package com.decksy.model;
 
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
-import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "decks")
 public class Deck {
 
   @Id @GeneratedValue private long id;
-  @CreationTimestamp private LocalDate created;
-  @UpdateTimestamp private LocalDate updated;
+  @CreatedDate private LocalDate created;
+  @LastModifiedDate private LocalDate updated;
 
   @NotBlank(message = "Name is mandatory")
   private String name;
   private String notes;
+
+  @OneToMany(mappedBy = "decks")
+  private Set<DeckCard> deckCards;
 
   public long getId() {
     return id;
@@ -62,10 +66,14 @@ public class Deck {
     this.notes = notes;
     return this;
   }
-  
-  public List<Card> getDecklist(String DeckID) {
-	  List<Card> deckList = DeckList.getDeckList();
-	  return deckList;
+
+  public Set<DeckCard> getDeckCards() {
+    return deckCards;
+  }
+
+  public Deck setDeckCards(Set<DeckCard> deckCards) {
+    this.deckCards = deckCards;
+    return this;
   }
 
 }
