@@ -15,8 +15,8 @@ public class CardMapperTest {
   @Test
   public void toModel() {
     // Arrange
-    io.magicthegathering.javasdk.resource.Card source =
-        new io.magicthegathering.javasdk.resource.Card();
+    com.decksy.service.mtg.Card source =
+        new com.decksy.service.mtg.Card();
     source.setName("Archangel Avacyn");
     source.setManaCost("{3}{W}{W}");
     source.setCmc(5);

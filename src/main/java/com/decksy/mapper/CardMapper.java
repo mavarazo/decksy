@@ -18,5 +18,5 @@ public interface CardMapper {
   @Mapping(target = "updated", ignore = true)
   @Mapping(target = "deckCards", ignore = true)
   @Mapping(source = "multiverseid", target = "multiverseId")
-  Card toModel(io.magicthegathering.javasdk.resource.Card card);
+  Card toModel(com.decksy.service.mtg.Card card);
 }

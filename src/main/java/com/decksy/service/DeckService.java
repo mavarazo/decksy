@@ -1,7 +1,6 @@
 package com.decksy.service;
 
 import com.decksy.model.Deck;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
