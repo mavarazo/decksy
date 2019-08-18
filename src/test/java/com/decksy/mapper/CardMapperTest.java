@@ -2,21 +2,18 @@ package com.decksy.mapper;
 
 import com.decksy.model.Card;
 import org.junit.Test;
-import org.mapstruct.factory.Mappers;
-
-import java.util.Arrays;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 public class CardMapperTest {
 
   @Test
   public void toModel() {
     // Arrange
-    com.decksy.service.mtg.Card source =
-        new com.decksy.service.mtg.Card();
+    io.magicthegathering.javasdk.resource.Card source =
+        new io.magicthegathering.javasdk.resource.Card();
     source.setName("Archangel Avacyn");
     source.setManaCost("{3}{W}{W}");
     source.setCmc(5);
@@ -48,7 +45,8 @@ public class CardMapperTest {
     assertThat(target.getPower(), is("4"));
     assertThat(target.getToughness(), is("4"));
     assertThat(target.getMultiverseId(), is(409741));
-    assertThat(target.getImageUrl(), is("http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409741&type=card"));
-
+    assertThat(
+        target.getImageUrl(),
+        is("http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409741&type=card"));
   }
 }
