@@ -3,6 +3,10 @@
       xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout}">
+<head>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+</head>
 <body>
 <!-- Header content -->
 <th:block layout:fragment="content-header">
@@ -25,7 +29,7 @@
                     <!--h3 class="box-title">Decklist</h3-->
 
                     <div class="box-tools">
-                        <form action="#" th:action="@{/deck/}" th:object="${deck}" method="post">
+                        <form action="#" th:action="@{/decks/}" th:object="${deck}" method="post">
                             <div class="input-group">
                                 <input type="text" class="form-control pull-right" th:field="*{name}" id="name" placeholder="Name">
                                 <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>

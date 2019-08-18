@@ -19,6 +19,7 @@ public class DeckCard {
    @Id @GeneratedValue private long id;
    @CreatedDate private LocalDate created;
    @LastModifiedDate private LocalDate updated;
+   private LocalDate replaced;
 
    @ManyToOne
    @JoinColumn(name = "deck_id")

@@ -40,13 +40,24 @@ public class DeckController {
       return "decks/deck";
    }
 
+   @GetMapping(value = "/{id}/edit")
+   public String edit(@PathVariable long id, Model model) {
+      Optional<Deck> deck = deckService.findById(id);
+      if (!deck.isPresent()) {
+         return "redirect:/decks/";
+      }
+
+      model.addAttribute("deck", deck.get());
+      return "decks/edit";
+   }
+
    @PostMapping(value = "/")
    public String save(@Valid DeckDto deck, BindingResult result) {
       if (result.hasErrors()) {
          return "decks/index";
       }
 
-      return "redirect:/decks/" + deckService.save(DeckMapper.INSTANCE.toModel(deck)).getId();
+      return "redirect:/decks/" + deckService.save(DeckMapper.INSTANCE.toModel(deck)).getId() + "/edit";
    }
 
 
