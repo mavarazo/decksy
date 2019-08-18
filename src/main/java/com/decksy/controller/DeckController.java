@@ -18,7 +18,7 @@ import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
-@RequestMapping("/deck")
+@RequestMapping("/decks")
 public class DeckController {
 
    @Autowired private DeckService deckService;
@@ -26,27 +26,27 @@ public class DeckController {
    @GetMapping(value = "/")
    public String index(Model model) {
       model.addAttribute("deck", new DeckDto());
-      return "deck/index";
+      return "decks/index";
    }
 
    @GetMapping(value = "/{id}")
    public String show(@PathVariable long id, Model model) {
       Optional<Deck> deck = deckService.findById(id);
       if (!deck.isPresent()) {
-         return "redirect:/deck/";
+         return "redirect:/decks/";
       }
 
       model.addAttribute("deck", deck.get());
-      return "deck/deck";
+      return "decks/deck";
    }
 
    @PostMapping(value = "/")
-   public String create(@Valid DeckDto deck, BindingResult result) {
+   public String save(@Valid DeckDto deck, BindingResult result) {
       if (result.hasErrors()) {
-         return "deck/index";
+         return "decks/index";
       }
 
-      return "redirect:/deck/" + deckService.save(DeckMapper.INSTANCE.toModel(deck)).getId();
+      return "redirect:/decks/" + deckService.save(DeckMapper.INSTANCE.toModel(deck)).getId();
    }
 
 
