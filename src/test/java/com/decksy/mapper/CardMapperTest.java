@@ -26,6 +26,8 @@ public class CardMapperTest {
     source.setPower("4");
     source.setToughness("4");
     source.setMultiverseid(409741);
+    source.setSet("SOI");
+    source.setSetName("SetName");
     source.setImageUrl(
         "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409741&type=card");
 
@@ -45,6 +47,8 @@ public class CardMapperTest {
     assertThat(target.getPower(), is("4"));
     assertThat(target.getToughness(), is("4"));
     assertThat(target.getMultiverseId(), is(409741));
+    assertThat(target.getSet(), is("SOI"));
+    assertThat(target.getSetName(), is("SetName"));
     assertThat(
         target.getImageUrl(),
         is("http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409741&type=card"));

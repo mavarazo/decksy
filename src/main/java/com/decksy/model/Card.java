@@ -37,6 +37,8 @@ public class Card {
   private String rarity;
   private String power;
   private String toughness;
+  private String set;
+  private String setName;
   private String imageUrl;
 
   public long getId() {
@@ -184,6 +186,24 @@ public class Card {
 
   public Card setToughness(String toughness) {
     this.toughness = toughness;
+    return this;
+  }
+
+  public String getSet() {
+    return set;
+  }
+
+  public Card setSet(String set) {
+    this.set = set;
+    return this;
+  }
+
+  public String getSetName() {
+    return setName;
+  }
+
+  public Card setSetName(String setName) {
+    this.setName = setName;
     return this;
   }
 
