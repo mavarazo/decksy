@@ -1,5 +1,6 @@
 package com.decksy.service;
 
+import com.decksy.dto.DeckCardDto;
 import com.decksy.mapper.CardMapper;
 import com.decksy.model.Card;
 import com.decksy.repository.CardRepository;
@@ -25,9 +26,23 @@ public class CardServiceImpl implements CardService {
     return result.stream().map(c -> CardMapper.INSTANCE.toModel(c)).collect(Collectors.toList());
   }
 
+  private Card fetchCardById(String mtgId) {
+    CardApi.overrideHttpClient();
+    io.magicthegathering.javasdk.resource.Card result = CardApi.getCard(mtgId);
+    return CardMapper.INSTANCE.toModel(result);
+  }
+
   @Override
-  public Card findByMultiverseId(int multiverseId) {
-    return cardRepository.findByMultiverseId(multiverseId);
+  public Card findByMtgId(String mtgId) {
+    return cardRepository.findByMtgId(mtgId);
+  }
+
+  public Card save(DeckCardDto deckCardDto) {
+    if (deckCardDto.getCardId() == 0) {
+      Card card = cardRepository.save(fetchCardById(deckCardDto.getMtgId()));
+    }
+
+    deck
   }
 
   static class CardApi extends CardAPI {

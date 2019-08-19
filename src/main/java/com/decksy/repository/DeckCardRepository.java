@@ -1,11 +1,9 @@
 package com.decksy.repository;
 
-import com.decksy.model.Card;
+import com.decksy.model.DeckCard;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CardRepository extends JpaRepository<Card, Long> {
-
-  Card findByMtgId(String mtgId);
+public interface DeckCardRepository extends JpaRepository<DeckCard, Long> {
 }

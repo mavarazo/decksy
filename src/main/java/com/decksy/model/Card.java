@@ -24,7 +24,8 @@ public class Card {
   @OneToMany(mappedBy = "card")
   private Set<DeckCard> deckCards;
 
-  @NotBlank private int multiverseId;
+  private int multiverseId;
+  private String mtgId;
   private String name;
   private String layout;
   private double cmc;
@@ -78,6 +79,15 @@ public class Card {
 
   public Card setMultiverseId(int multiverseId) {
     this.multiverseId = multiverseId;
+    return this;
+  }
+
+  public String getMtgId() {
+    return mtgId;
+  }
+
+  public Card setMtgId(String mtgId) {
+    this.mtgId = mtgId;
     return this;
   }
 

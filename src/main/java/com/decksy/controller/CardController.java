@@ -1,11 +1,14 @@
 package com.decksy.controller;
 
 import com.decksy.dto.CardCriteriaDto;
+import com.decksy.dto.DeckCardDto;
+import com.decksy.mapper.DeckMapper;
 import com.decksy.model.Card;
 import com.decksy.service.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -34,7 +37,7 @@ public class CardController {
         result.stream()
             .map(
                 r -> {
-                  Card card = cardService.findByMultiverseId(r.getMultiverseId());
+                  Card card = cardService.findByMtgId(r.getMtgId());
                   return Objects.nonNull(card) ? card : r;
                 })
             .collect(Collectors.toList());
@@ -42,4 +45,11 @@ public class CardController {
     model.addAttribute("cards", cards);
     return "cards/fragments :: search-result";
   }
+
+   @PostMapping(value = "/")
+   public String save(@Valid DeckCardDto deck, BindingResult result) {
+     cardService.save
+
+      return "FIXME";
+   }
 }

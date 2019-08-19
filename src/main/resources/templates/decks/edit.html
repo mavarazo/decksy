@@ -6,6 +6,8 @@
 <head>
     <meta name="_csrf" th:content="${_csrf.token}"/>
     <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <meta name="_deck_id" th:content="${deck.id}"/>
+
 </head>
 <body>
 <!-- Header content -->
@@ -57,20 +59,20 @@
 <th:block layout:fragment="script">
     <script type="application/javascript">
         $(document).ready(function () {
-
             $("#search-form").submit(function (event) {
-
                 //stop submit the form, we will post it manually.
                 event.preventDefault();
-
-                fire_ajax_submit();
-
+                search();
             });
 
+            $("#add-card-to-deck-form").submit(function (event) {
+                //stop submit the form, we will post it manually.
+                event.preventDefault();
+                add();
+            });
         });
 
-        function fire_ajax_submit() {
-
+        function search() {
             var search = {}
             search["name"] = $("#card-name").val();
 
@@ -101,7 +103,39 @@
 
                 }
             });
+        }
 
+        function add() {
+            var criteria = {}
+            criteria["deck-id"] = $("meta[name='_deck_id']").attr("content");
+            criteria["card-id"] = $("#card-id").val();
+            criteria["mtg-id"] = $("#mtg-id").val();
+
+            $("#btn-add").prop("disabled", true);
+
+            var token = $("meta[name='_csrf']").attr("content");
+            var header = $("meta[name='_csrf_header']").attr("content");
+            $(document).ajaxSend(function(e, xhr, options) {
+                xhr.setRequestHeader(header, token);
+            });
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                url: "/cards/",
+                data: JSON.stringify(search),
+                cache: false,
+                timeout: 600000,
+                success: function (data) {
+                    console.log("SUCCESS : ", data);
+                    $("#btn-add").prop("disabled", false);
+                },
+                error: function (e) {
+                    console.log("ERROR : ", e);
+                    $("#btn-add").prop("disabled", false);
+
+                }
+            });
         }
 
     </script>

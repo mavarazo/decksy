@@ -23,8 +23,10 @@
             <td th:text="${card.type}">type</td>
             <td th:text="${card.set}">set</td>
             <td>
-                <form
-
+                <form id="add-card-to-deck-form">
+                    <input type="text" id="card-id" th:value="${card.id}">
+                    <input type="text" id="mtg-id" th:value="${card.mtgId}">
+                </form>
             </td>
         </tr>
         </thead>

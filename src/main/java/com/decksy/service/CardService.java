@@ -8,5 +8,5 @@ public interface CardService {
 
    List<Card> fetchCardByName(String name);
 
-   Card findByMultiverseId(int multiverseId);
+   Card findByMtgId(String mtgId);
 }
