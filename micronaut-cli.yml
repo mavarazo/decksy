@@ -1,5 +1,5 @@
 profile: service
-defaultPackage: decksy
+defaultPackage: com.decksy
 ---
 testFramework: junit
 sourceLanguage: java

@@ -1,4 +1,4 @@
-package decksy;
+package com.decksy;
 
 import io.micronaut.runtime.Micronaut;
 
