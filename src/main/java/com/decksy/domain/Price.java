@@ -2,57 +2,73 @@ package com.decksy.domain;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
+@Entity
+@Table(name = "prices")
 public class Price {
 
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
-  private LocalDateTime last_modified;
-  private Long article_id;
+
+  @CreationTimestamp private LocalDateTime createDateTime;
+
+  @UpdateTimestamp private LocalDateTime updateDateTime;
+
+  @ManyToOne private Article article;
+
   private BigDecimal price;
 
   public Long getId() {
     return id;
   }
 
-  public void setId(Long id) {
+  public Price setId(Long id) {
     this.id = id;
+    return this;
   }
 
-  public LocalDateTime getLast_modified() {
-    return last_modified;
+  public LocalDateTime getCreateDateTime() {
+    return createDateTime;
   }
 
-  public void setLast_modified(LocalDateTime last_modified) {
-    this.last_modified = last_modified;
+  public Price setCreateDateTime(LocalDateTime createDateTime) {
+    this.createDateTime = createDateTime;
+    return this;
   }
 
-  public Long getArticle_id() {
-    return article_id;
+  public LocalDateTime getUpdateDateTime() {
+    return updateDateTime;
   }
 
-  public void setArticle_id(Long article_id) {
-    this.article_id = article_id;
+  public Price setUpdateDateTime(LocalDateTime updateDateTime) {
+    this.updateDateTime = updateDateTime;
+    return this;
+  }
+
+  public Article getArticle() {
+    return article;
+  }
+
+  public Price setArticle(Article article) {
+    this.article = article;
+    return this;
   }
 
   public BigDecimal getPrice() {
     return price;
   }
 
-  public void setPrice(BigDecimal price) {
+  public Price setPrice(BigDecimal price) {
     this.price = price;
-  }
-
-  @Override
-  public String toString() {
-    return "Price{"
-        + "id="
-        + id
-        + ", last_modified="
-        + last_modified
-        + ", article_id="
-        + article_id
-        + ", price="
-        + price
-        + '}';
+    return this;
   }
 }

@@ -1,14 +1,36 @@
 package com.decksy.domain;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
 import java.time.LocalDateTime;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
+@Entity
+@Table(name = "products")
 public class Product {
 
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
-  private LocalDateTime last_modified;
-  private Long product_id;
+
+  @CreationTimestamp private LocalDateTime createDateTime;
+
+  @UpdateTimestamp private LocalDateTime updateDateTime;
+
+  @OneToOne private Article article;
+
+  @JsonAlias(value = "idProduct")
+  private Long productId;
+
+  @JsonAlias(value = "name_en")
   private String name;
-  private Integer icon;
+
   private String expansion;
   private String rarity;
 
@@ -16,78 +38,71 @@ public class Product {
     return id;
   }
 
-  public void setId(Long id) {
+  public Product setId(Long id) {
     this.id = id;
+    return this;
   }
 
-  public LocalDateTime getLast_modified() {
-    return last_modified;
+  public LocalDateTime getCreateDateTime() {
+    return createDateTime;
   }
 
-  public void setLast_modified(LocalDateTime last_modified) {
-    this.last_modified = last_modified;
+  public Product setCreateDateTime(LocalDateTime createDateTime) {
+    this.createDateTime = createDateTime;
+    return this;
   }
 
-  public Long getProduct_id() {
-    return product_id;
+  public LocalDateTime getUpdateDateTime() {
+    return updateDateTime;
   }
 
-  public void setProduct_id(Long product_id) {
-    this.product_id = product_id;
+  public Product setUpdateDateTime(LocalDateTime updateDateTime) {
+    this.updateDateTime = updateDateTime;
+    return this;
+  }
+
+  public Article getArticle() {
+    return article;
+  }
+
+  public Product setArticle(Article article) {
+    this.article = article;
+    return this;
+  }
+
+  public Long getProductId() {
+    return productId;
+  }
+
+  public Product setProductId(Long productId) {
+    this.productId = productId;
+    return this;
   }
 
   public String getName() {
     return name;
   }
 
-  public void setName(String name) {
+  public Product setName(String name) {
     this.name = name;
-  }
-
-  public Integer getIcon() {
-    return icon;
-  }
-
-  public void setIcon(Integer icon) {
-    this.icon = icon;
+    return this;
   }
 
   public String getExpansion() {
     return expansion;
   }
 
-  public void setExpansion(String expansion) {
+  public Product setExpansion(String expansion) {
     this.expansion = expansion;
+    return this;
   }
 
   public String getRarity() {
     return rarity;
   }
 
-  public void setRarity(String rarity) {
+  public Product setRarity(String rarity) {
     this.rarity = rarity;
-  }
-
-  @Override
-  public String toString() {
-    return "Product{"
-        + "id="
-        + id
-        + ", last_modified="
-        + last_modified
-        + ", product_id="
-        + product_id
-        + ", name='"
-        + name
-        + '\''
-        + ", icon="
-        + icon
-        + ", expansion='"
-        + expansion
-        + '\''
-        + ", rarity='"
-        + rarity
-        + '\''
-        + '}';
+    return this;
   }
 }

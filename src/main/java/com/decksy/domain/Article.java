@@ -5,22 +5,35 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
+@Entity
+@Table(name = "articles")
 public class Article {
 
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
-  private LocalDateTime last_modified;
 
-  @JsonAlias(value = "idProduct")
-  private Long product_id;
+  @CreationTimestamp private LocalDateTime createDateTime;
+
+  @UpdateTimestamp private LocalDateTime updateDateTime;
 
   @JsonAlias(value = "idArticle")
-  private Long article_id;
+  private Long articleId;
 
   private Integer count;
 
   @JsonAlias(value = "languageId")
-  private Long language_id;
+  private Long languageId;
 
   private String comments;
   private String condition;
@@ -29,8 +42,11 @@ public class Article {
   private Boolean isAltered;
   private Boolean isPlayset;
 
-  @JsonIgnore private Product product;
-  @JsonIgnore private Set<Price> prices = new HashSet<>();
+  @JsonIgnore @ManyToOne private Product product;
+
+  @JsonIgnore
+  @OneToMany(mappedBy = "article")
+  private Set<Price> prices = new HashSet<>();
 
   public Long getId() {
     return id;
@@ -41,30 +57,30 @@ public class Article {
     return this;
   }
 
-  public LocalDateTime getLast_modified() {
-    return last_modified;
+  public LocalDateTime getCreateDateTime() {
+    return createDateTime;
   }
 
-  public Article setLast_modified(LocalDateTime last_modified) {
-    this.last_modified = last_modified;
+  public Article setCreateDateTime(LocalDateTime createDateTime) {
+    this.createDateTime = createDateTime;
     return this;
   }
 
-  public Long getProduct_id() {
-    return product_id;
+  public LocalDateTime getUpdateDateTime() {
+    return updateDateTime;
   }
 
-  public Article setProduct_id(Long product_id) {
-    this.product_id = product_id;
+  public Article setUpdateDateTime(LocalDateTime updateDateTime) {
+    this.updateDateTime = updateDateTime;
     return this;
   }
 
-  public Long getArticle_id() {
-    return article_id;
+  public Long getArticleId() {
+    return articleId;
   }
 
-  public Article setArticle_id(Long article_id) {
-    this.article_id = article_id;
+  public Article setArticleId(Long articleId) {
+    this.articleId = articleId;
     return this;
   }
 
@@ -77,12 +93,12 @@ public class Article {
     return this;
   }
 
-  public Long getLanguage_id() {
-    return language_id;
+  public Long getLanguageId() {
+    return languageId;
   }
 
-  public Article setLanguage_id(Long language_id) {
-    this.language_id = language_id;
+  public Article setLanguageId(Long languageId) {
+    this.languageId = languageId;
     return this;
   }
 
@@ -153,44 +169,13 @@ public class Article {
     return prices;
   }
 
-  public Article setPrices(Set<Price> prices) {
-    this.prices = prices;
+  public Article addPrice(Price price) {
+    this.prices.add(price);
     return this;
   }
 
-  @Override
-  public String toString() {
-    return "Article{"
-        + "id="
-        + id
-        + ", last_modified="
-        + last_modified
-        + ", product_id="
-        + product_id
-        + ", article_id="
-        + article_id
-        + ", count="
-        + count
-        + ", language_id="
-        + language_id
-        + ", comments='"
-        + comments
-        + '\''
-        + ", condition='"
-        + condition
-        + '\''
-        + ", isFoil="
-        + isFoil
-        + ", isSigned="
-        + isSigned
-        + ", isAltered="
-        + isAltered
-        + ", isPlayset="
-        + isPlayset
-        + ", product="
-        + product
-        + ", prices="
-        + prices
-        + '}';
+  public Article setPrices(Set<Price> prices) {
+    this.prices = prices;
+    return this;
   }
 }
