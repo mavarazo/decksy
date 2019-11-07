@@ -21,4 +21,8 @@ public class StockContoller {
   List<Article> all() {
     return articleRepository.findAll();
   }
+
+  @Get("/")
+  void bingo() {
+  }
 }
