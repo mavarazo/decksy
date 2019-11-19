@@ -2,6 +2,7 @@ package com.decksy.api.mkm;
 
 import com.decksy.MkmConfig;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Collections;
@@ -18,6 +19,7 @@ public class MkmClient {
   private static final Logger LOGGER = LoggerFactory.getLogger(MkmClient.class);
   private static final String GET = "GET";
   private static final String OAUTH_AUTHORIZATION_HEADER = "Authorization";
+  public static final String ENCODING = "UTF-8";
 
   private final MkmConfig mkmConfig;
   private final OAuth2Impl oAuth2;
@@ -27,11 +29,11 @@ public class MkmClient {
     this.oAuth2 = oAuth2;
   }
 
-  public String get(String uri) throws IOException, HttpException {
+  public InputStream get(String uri) throws IOException, HttpException {
     return get(uri, Collections.emptyMap());
   }
 
-  public String get(String uri, Map<String, String> params) throws HttpException, IOException {
+  public InputStream get(String uri, Map<String, String> params) throws HttpException, IOException {
     String url = mkmConfig.getApiUrl() + uri;
     LOGGER.debug("LINK=%s", url);
 
@@ -50,7 +52,7 @@ public class MkmClient {
       throw new HttpException(connection.getResponseCode());
     }
 
-    return connection.getResponseMessage();
+    return connection.getInputStream();
   }
 
   private static boolean isSuccessful(int responseCode) {

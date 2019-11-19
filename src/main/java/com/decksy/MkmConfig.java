@@ -65,7 +65,7 @@ public class MkmConfig {
   }
 
   public String getApiUrl() {
-    return apiUrl + apiVersion;
+    return apiUrl + apiVersion + "/output.json";
   }
 
   public void setApiUrl(String apiUrl) {
