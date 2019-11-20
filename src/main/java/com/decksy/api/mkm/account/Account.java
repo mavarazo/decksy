@@ -237,11 +237,11 @@ public class Account {
     return this;
   }
 
-  public Boolean getActivated() {
+  public Boolean getIsActivated() {
     return isActivated;
   }
 
-  public Account setActivated(Boolean activated) {
+  public Account setIsActivated(Boolean activated) {
     isActivated = activated;
     return this;
   }
