@@ -10,32 +10,36 @@ public class BankAccount {
     return accountOwner;
   }
 
-  public void setAccountOwner(String accountOwner) {
+  public BankAccount setAccountOwner(String accountOwner) {
     this.accountOwner = accountOwner;
+    return this;
   }
 
   public String getIban() {
     return iban;
   }
 
-  public void setIban(String iban) {
+  public BankAccount setIban(String iban) {
     this.iban = iban;
+    return this;
   }
 
   public String getBic() {
     return bic;
   }
 
-  public void setBic(String bic) {
+  public BankAccount setBic(String bic) {
     this.bic = bic;
+    return this;
   }
 
   public String getBankName() {
     return bankName;
   }
 
-  public void setBankName(String bankName) {
+  public BankAccount setBankName(String bankName) {
     this.bankName = bankName;
+    return this;
   }
 
   @Override

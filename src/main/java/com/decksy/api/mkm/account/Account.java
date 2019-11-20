@@ -1,7 +1,8 @@
 package com.decksy.api.mkm.account;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import java.time.LocalDateTime;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 public class Account {
   private Long idUser;
@@ -42,216 +43,243 @@ public class Account {
     return idUser;
   }
 
-  public void setIdUser(Long idUser) {
+  public Account setIdUser(Long idUser) {
     this.idUser = idUser;
+    return this;
   }
 
   public String getUsername() {
     return username;
   }
 
-  public void setUsername(String username) {
+  public Account setUsername(String username) {
     this.username = username;
+    return this;
   }
 
   public String getCountry() {
     return country;
   }
 
-  public void setCountry(String country) {
+  public Account setCountry(String country) {
     this.country = country;
+    return this;
   }
 
   public Integer getIsCommercial() {
     return isCommercial;
   }
 
-  public void setIsCommercial(Integer isCommercial) {
+  public Account setIsCommercial(Integer isCommercial) {
     this.isCommercial = isCommercial;
+    return this;
   }
 
   public Boolean getMaySell() {
     return maySell;
   }
 
-  public void setMaySell(Boolean maySell) {
+  public Account setMaySell(Boolean maySell) {
     this.maySell = maySell;
+    return this;
   }
 
   public Integer getSellerActivation() {
     return sellerActivation;
   }
 
-  public void setSellerActivation(Integer sellerActivation) {
+  public Account setSellerActivation(Integer sellerActivation) {
     this.sellerActivation = sellerActivation;
+    return this;
   }
 
   public Integer getRiskGroup() {
     return riskGroup;
   }
 
-  public void setRiskGroup(Integer riskGroup) {
+  public Account setRiskGroup(Integer riskGroup) {
     this.riskGroup = riskGroup;
+    return this;
   }
 
   public String getLossPercentage() {
     return lossPercentage;
   }
 
-  public void setLossPercentage(String lossPercentage) {
+  public Account setLossPercentage(String lossPercentage) {
     this.lossPercentage = lossPercentage;
+    return this;
   }
 
   public Integer getReputation() {
     return reputation;
   }
 
-  public void setReputation(Integer reputation) {
+  public Account setReputation(Integer reputation) {
     this.reputation = reputation;
+    return this;
   }
 
   public Integer getShipsFast() {
     return shipsFast;
   }
 
-  public void setShipsFast(Integer shipsFast) {
+  public Account setShipsFast(Integer shipsFast) {
     this.shipsFast = shipsFast;
+    return this;
   }
 
   public Integer getSellCount() {
     return sellCount;
   }
 
-  public void setSellCount(Integer sellCount) {
+  public Account setSellCount(Integer sellCount) {
     this.sellCount = sellCount;
+    return this;
   }
 
   public Integer getSoldItems() {
     return soldItems;
   }
 
-  public void setSoldItems(Integer soldItems) {
+  public Account setSoldItems(Integer soldItems) {
     this.soldItems = soldItems;
+    return this;
   }
 
   public Integer getAvgShippingTime() {
     return avgShippingTime;
   }
 
-  public void setAvgShippingTime(Integer avgShippingTime) {
+  public Account setAvgShippingTime(Integer avgShippingTime) {
     this.avgShippingTime = avgShippingTime;
+    return this;
   }
 
   public Boolean getOnVacation() {
     return onVacation;
   }
 
-  public void setOnVacation(Boolean onVacation) {
+  public Account setOnVacation(Boolean onVacation) {
     this.onVacation = onVacation;
+    return this;
   }
 
   public Long getIdDisplayLanguage() {
     return idDisplayLanguage;
   }
 
-  public void setIdDisplayLanguage(Long idDisplayLanguage) {
+  public Account setIdDisplayLanguage(Long idDisplayLanguage) {
     this.idDisplayLanguage = idDisplayLanguage;
+    return this;
   }
 
   public Name getName() {
     return name;
   }
 
-  public void setName(Name name) {
+  public Account setName(Name name) {
     this.name = name;
+    return this;
   }
 
   public HomeAddress getHomeAddress() {
     return homeAddress;
   }
 
-  public void setHomeAddress(HomeAddress homeAddress) {
+  public Account setHomeAddress(HomeAddress homeAddress) {
     this.homeAddress = homeAddress;
+    return this;
   }
 
   public String getEmail() {
     return email;
   }
 
-  public void setEmail(String email) {
+  public Account setEmail(String email) {
     this.email = email;
+    return this;
   }
 
   public String getPhoneNumber() {
     return phoneNumber;
   }
 
-  public void setPhoneNumber(String phoneNumber) {
+  public Account setPhoneNumber(String phoneNumber) {
     this.phoneNumber = phoneNumber;
+    return this;
   }
 
   public String getVat() {
     return vat;
   }
 
-  public void setVat(String vat) {
+  public Account setVat(String vat) {
     this.vat = vat;
+    return this;
   }
 
   public String getLegalInformation() {
     return legalInformation;
   }
 
-  public void setLegalInformation(String legalInformation) {
+  public Account setLegalInformation(String legalInformation) {
     this.legalInformation = legalInformation;
+    return this;
   }
 
   public LocalDateTime getRegisterDate() {
     return registerDate;
   }
 
-  public void setRegisterDate(LocalDateTime registerDate) {
+  public Account setRegisterDate(LocalDateTime registerDate) {
     this.registerDate = registerDate;
+    return this;
   }
 
-  public Boolean getIsActivated() {
+  public Boolean getActivated() {
     return isActivated;
   }
 
-  public void setIsActivated(Boolean isActivated) {
-    this.isActivated = isActivated;
+  public Account setActivated(Boolean activated) {
+    isActivated = activated;
+    return this;
   }
 
   public MoneyDetails getMoneyDetails() {
     return moneyDetails;
   }
 
-  public void setMoneyDetails(MoneyDetails moneyDetails) {
+  public Account setMoneyDetails(MoneyDetails moneyDetails) {
     this.moneyDetails = moneyDetails;
+    return this;
   }
 
   public BankAccount getBankAccount() {
     return bankAccount;
   }
 
-  public void setBankAccount(BankAccount bankAccount) {
+  public Account setBankAccount(BankAccount bankAccount) {
     this.bankAccount = bankAccount;
+    return this;
   }
 
   public Integer getArticlesInShoppingCart() {
     return articlesInShoppingCart;
   }
 
-  public void setArticlesInShoppingCart(Integer articlesInShoppingCart) {
+  public Account setArticlesInShoppingCart(Integer articlesInShoppingCart) {
     this.articlesInShoppingCart = articlesInShoppingCart;
+    return this;
   }
 
   public Integer getUnreadMessages() {
     return unreadMessages;
   }
 
-  public void setUnreadMessages(Integer unreadMessages) {
+  public Account setUnreadMessages(Integer unreadMessages) {
     this.unreadMessages = unreadMessages;
+    return this;
   }
 
   @Override

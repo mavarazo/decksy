@@ -12,48 +12,54 @@ public class HomeAddress {
     return name;
   }
 
-  public void setName(String name) {
+  public HomeAddress setName(String name) {
     this.name = name;
+    return this;
   }
 
   public String getExtra() {
     return extra;
   }
 
-  public void setExtra(String extra) {
+  public HomeAddress setExtra(String extra) {
     this.extra = extra;
+    return this;
   }
 
   public String getStreet() {
     return street;
   }
 
-  public void setStreet(String street) {
+  public HomeAddress setStreet(String street) {
     this.street = street;
+    return this;
   }
 
   public String getZip() {
     return zip;
   }
 
-  public void setZip(String zip) {
+  public HomeAddress setZip(String zip) {
     this.zip = zip;
+    return this;
   }
 
   public String getCity() {
     return city;
   }
 
-  public void setCity(String city) {
+  public HomeAddress setCity(String city) {
     this.city = city;
+    return this;
   }
 
   public String getCountry() {
     return country;
   }
 
-  public void setCountry(String country) {
+  public HomeAddress setCountry(String country) {
     this.country = country;
+    return this;
   }
 
   @Override

@@ -7,44 +7,49 @@ public class MoneyDetails {
   private Double unpaidAmount;
   private Double providerRechargeAmount;
 
-  public Number getTotalBalance() {
+  public Double getTotalBalance() {
     return totalBalance;
   }
 
-  public void setTotalBalance(Double totalBalance) {
+  public MoneyDetails setTotalBalance(Double totalBalance) {
     this.totalBalance = totalBalance;
+    return this;
   }
 
   public Double getMoneyBalance() {
     return moneyBalance;
   }
 
-  public void setMoneyBalance(Double moneyBalance) {
+  public MoneyDetails setMoneyBalance(Double moneyBalance) {
     this.moneyBalance = moneyBalance;
+    return this;
   }
 
   public Double getBonusBalance() {
     return bonusBalance;
   }
 
-  public void setBonusBalance(Double bonusBalance) {
+  public MoneyDetails setBonusBalance(Double bonusBalance) {
     this.bonusBalance = bonusBalance;
+    return this;
   }
 
   public Double getUnpaidAmount() {
     return unpaidAmount;
   }
 
-  public void setUnpaidAmount(Double unpaidAmount) {
+  public MoneyDetails setUnpaidAmount(Double unpaidAmount) {
     this.unpaidAmount = unpaidAmount;
+    return this;
   }
 
   public Double getProviderRechargeAmount() {
     return providerRechargeAmount;
   }
 
-  public void setProviderRechargeAmount(Double providerRechargeAmount) {
+  public MoneyDetails setProviderRechargeAmount(Double providerRechargeAmount) {
     this.providerRechargeAmount = providerRechargeAmount;
+    return this;
   }
 
   @Override

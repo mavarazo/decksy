@@ -8,16 +8,18 @@ public class Name {
     return firstName;
   }
 
-  public void setFirstName(String firstName) {
+  public Name setFirstName(String firstName) {
     this.firstName = firstName;
+    return this;
   }
 
   public String getLastName() {
     return lastName;
   }
 
-  public void setLastName(String lastName) {
+  public Name setLastName(String lastName) {
     this.lastName = lastName;
+    return this;
   }
 
   @Override
