@@ -18,7 +18,7 @@ public class AccountServiceImpl {
     this.mkmClient = mkmClient;
   }
 
-  public Account get_account() throws IOException, HttpException {
+  public Account getAccount() throws IOException, HttpException {
     InputStream response = mkmClient.get("/account");
     ObjectMapper objectMapper = new ObjectMapper();
     objectMapper.registerModule(new JavaTimeModule());

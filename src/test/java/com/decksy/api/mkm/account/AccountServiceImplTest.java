@@ -28,7 +28,7 @@ public class AccountServiceImplTest {
     Mockito.doReturn(inputStream.get()).when(mkmClient).get("/account");
 
     // Act
-    Account account = sut.get_account();
+    Account account = sut.getAccount();
 
     // Assert
     assertEquals(account.getIdUser(), Long.valueOf(12345));

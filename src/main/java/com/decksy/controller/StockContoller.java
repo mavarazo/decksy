@@ -2,6 +2,7 @@ package com.decksy.controller;
 
 import com.decksy.api.mkm.account.AccountServiceImpl;
 import com.decksy.api.mkm.HttpException;
+import com.decksy.api.mkm.stock.StockServiceImpl;
 import com.decksy.domain.Article;
 import com.decksy.repository.ArticleRepository;
 import io.micronaut.http.annotation.Controller;
@@ -15,11 +16,11 @@ import java.util.List;
 public class StockContoller {
 
   private final ArticleRepository articleRepository;
-  private final AccountServiceImpl accountService;
+  private final StockServiceImpl stockService;
 
-  StockContoller(ArticleRepository articleRepository, AccountServiceImpl accountService) {
+  StockContoller(ArticleRepository articleRepository, StockServiceImpl stockService) {
     this.articleRepository = articleRepository;
-    this.accountService = accountService;
+    this.stockService = stockService;
   }
 
   @Get("/")
@@ -29,6 +30,6 @@ public class StockContoller {
 
   @Get("/fetch")
   String fetch() throws IOException, HttpException {
-    return accountService.get_account().toString();
+    return stockService.getStock().toString();
   }
 }

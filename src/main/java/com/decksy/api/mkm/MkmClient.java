@@ -1,17 +1,25 @@
 package com.decksy.api.mkm;
 
-import com.decksy.MkmConfig;
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
+
 import javax.inject.Singleton;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.decksy.MkmConfig;
 
 @Singleton
 public class MkmClient {
@@ -35,7 +43,7 @@ public class MkmClient {
 
   public InputStream get(String uri, Map<String, String> params) throws HttpException, IOException {
     String url = mkmConfig.getApiUrl() + uri;
-    LOGGER.debug("LINK=%s", url);
+    LOGGER.debug("LINK {}", url);
 
     if (Objects.nonNull(params) && params.size() > 0) {
       url += "?";
@@ -52,10 +60,27 @@ public class MkmClient {
       throw new HttpException(connection.getResponseCode());
     }
 
-    return connection.getInputStream();
+    InputStream inputStream = connection.getInputStream();
+    inputStreamToString(inputStream);
+    return inputStream;
   }
 
   private static boolean isSuccessful(int responseCode) {
     return responseCode >= 200 && responseCode < 300;
+  }
+
+  private void inputStreamToString(InputStream inputStream) {
+    StringBuilder textBuilder = new StringBuilder();
+    try (Reader reader =
+        new BufferedReader(
+            new InputStreamReader(inputStream, Charset.forName(StandardCharsets.UTF_8.name())))) {
+      int c = 0;
+      while ((c = reader.read()) != -1) {
+        textBuilder.append((char) c);
+      }
+    } catch (IOException e) {
+      LOGGER.error(e.getMessage(), e);
+    }
+    LOGGER.debug(textBuilder.toString());
   }
 }

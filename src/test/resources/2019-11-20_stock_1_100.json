@@ -1,0 +1,2804 @@
+{
+  "article": [
+    {
+      "idArticle": 404456472,
+      "idProduct": 14,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.25,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Loxodon Punisher",
+        "locName": "Loxodon Punisher",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/14.jpg",
+        "expansion": "Mirrodin",
+        "nr": "14",
+        "expIcon": "43",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:12+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456159,
+      "idProduct": 20,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 1.09,
+      "count": 3,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Second Sunrise",
+        "locName": "Second Sunrise",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/20.jpg",
+        "expansion": "Mirrodin",
+        "nr": "20",
+        "expIcon": "43",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:49:24+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404395716,
+      "idProduct": 25,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.19,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Soul Nova",
+        "locName": "Soul Nova",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/25.jpg",
+        "expansion": "Mirrodin",
+        "nr": "25",
+        "expIcon": "43",
+        "rarity": "Uncommon"
+      },
+      "lastEdited": "2019-05-24T17:01:12+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404978935,
+      "idProduct": 70,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.24,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Nim Devourer",
+        "locName": "Nim Devourer",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/70.jpg",
+        "expansion": "Mirrodin",
+        "nr": "70",
+        "expIcon": "43",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:51+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404980585,
+      "idProduct": 100,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.19,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Megatog",
+        "locName": "Megatog",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/100.jpg",
+        "expansion": "Mirrodin",
+        "nr": "100",
+        "expIcon": "43",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-05-24T17:04:30+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404987136,
+      "idProduct": 147,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.13,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Bosh, Iron Golem",
+        "locName": "Bosh, Iron Golem",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/147.jpg",
+        "expansion": "Mirrodin",
+        "nr": "147",
+        "expIcon": "43",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:43:49+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404987447,
+      "idProduct": 198,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.39,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Lightning Coils",
+        "locName": "Lightning Coils",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/198.jpg",
+        "expansion": "Mirrodin",
+        "nr": "198",
+        "expIcon": "43",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:43:46+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405164304,
+      "idProduct": 205,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 1.97,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Mind\u0027s Eye",
+        "locName": "Mind\u0027s Eye",
+        "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/205.jpg",
+        "expansion": "Mirrodin",
+        "nr": "205",
+        "expIcon": "43",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:45:30+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 547363124,
+      "idProduct": 356,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 2.2,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Skullclamp",
+        "locName": "Sch\u00e4delstrammer",
+        "image": "\/srv\/home\/www\/img\/items\/1\/DST\/356.jpg",
+        "expansion": "Darksteel",
+        "nr": "140",
+        "expIcon": "44",
+        "rarity": "Uncommon"
+      },
+      "lastEdited": "2019-10-21T21:13:07+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404985625,
+      "idProduct": 359,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.33,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Spellbinder",
+        "locName": "Spruchbinder",
+        "image": "\/srv\/home\/www\/img\/items\/1\/DST\/359.jpg",
+        "expansion": "Darksteel",
+        "nr": "143",
+        "expIcon": "44",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:39+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404985588,
+      "idProduct": 362,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.87,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Sundering Titan",
+        "locName": "Trennender Titan",
+        "image": "\/srv\/home\/www\/img\/items\/1\/DST\/362.jpg",
+        "expansion": "Darksteel",
+        "nr": "146",
+        "expIcon": "44",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:48:42+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404985849,
+      "idProduct": 374,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.13,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Wand of the Elements",
+        "locName": "Stab der Elemente",
+        "image": "\/srv\/home\/www\/img\/items\/1\/DST\/374.jpg",
+        "expansion": "Darksteel",
+        "nr": "158",
+        "expIcon": "44",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:35+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404978859,
+      "idProduct": 386,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.22,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Greater Harvester",
+        "locName": "Greater Harvester",
+        "image": "\/srv\/home\/www\/img\/items\/1\/DST\/386.jpg",
+        "expansion": "Darksteel",
+        "nr": "44",
+        "expIcon": "44",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:45:18+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404395870,
+      "idProduct": 473,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.21,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Arachnoid",
+        "locName": "Arachnoide",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/473.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "102",
+        "expIcon": "45",
+        "rarity": "Uncommon"
+      },
+      "lastEdited": "2019-06-28T13:56:38+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396090,
+      "idProduct": 517,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.7,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Razormane Masticore",
+        "locName": "Klingenm\u00e4hnen-Mastikor",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/517.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "146",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:52:10+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404985710,
+      "idProduct": 521,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 1.88,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Silent Arbiter",
+        "locName": "Stiller Schiedsrichter",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/521.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "150",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:48:29+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404985824,
+      "idProduct": 524,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.42,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Solarion",
+        "locName": "Solarion",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/524.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "153",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:40+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396385,
+      "idProduct": 556,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.27,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Vicious Betrayal",
+        "locName": "B\u00f6sartiger Verrat",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/556.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "60",
+        "expIcon": "45",
+        "rarity": "Common"
+      },
+      "lastEdited": "2019-06-28T13:56:34+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 429141753,
+      "idProduct": 567,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.65,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Rite of Passage",
+        "locName": "\u00dcbergangsritus",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/567.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "91",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:33+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404979874,
+      "idProduct": 579,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.25,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Cosmic Larva",
+        "locName": "Kosmische Larve",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/579.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "63",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:46:15+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404394314,
+      "idProduct": 582,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.17,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Goblin Brawler",
+        "locName": "Goblin Brawler",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/582.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "66",
+        "expIcon": "45",
+        "rarity": "Common"
+      },
+      "lastEdited": "2019-06-14T11:17:44+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396233,
+      "idProduct": 592,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.2,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Rain of Rust",
+        "locName": "Rostregen",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/592.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "76",
+        "expIcon": "45",
+        "rarity": "Common"
+      },
+      "lastEdited": "2019-05-16T22:52:18+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396303,
+      "idProduct": 595,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.49,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Spark Elemental",
+        "locName": "Funkenelementar",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/595.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "79",
+        "expIcon": "45",
+        "rarity": "Common"
+      },
+      "lastEdited": "2019-04-25T05:52:08+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404974157,
+      "idProduct": 597,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.56,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Acquire",
+        "locName": "Akquirieren",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/597.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "21",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:43:37+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404974115,
+      "idProduct": 599,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.71,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Artificer\u0027s Intuition",
+        "locName": "Eingebung des Handwerkers",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/599.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "23",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:37+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396837,
+      "idProduct": 604,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.17,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Disruption Aura",
+        "locName": "St\u00f6rende Aura",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/604.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "28",
+        "expIcon": "45",
+        "rarity": "Uncommon"
+      },
+      "lastEdited": "2019-05-24T17:04:30+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404973725,
+      "idProduct": 608,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.15,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Hoverguard Sweepers",
+        "locName": "Aufr\u00e4umender Schwebgardist",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/608.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "32",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:43:40+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404972586,
+      "idProduct": 621,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.26,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Auriok Windwalker",
+        "locName": "Auriok-Windwanderer",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/621.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "5",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:42+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456439,
+      "idProduct": 628,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.38,
+      "count": 3,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Raksha Golden Cub",
+        "locName": "Raksha Golden Cub",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/628.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "12",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:47:12+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404972513,
+      "idProduct": 628,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.38,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Raksha Golden Cub",
+        "locName": "Raksha Goldjunges",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/628.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "12",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:47:12+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404972427,
+      "idProduct": 629,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.29,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Retaliate",
+        "locName": "Heimzahlen",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/629.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "13",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:39+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404972776,
+      "idProduct": 630,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.35,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Roar of Reclamation",
+        "locName": "R\u00fcckforderndes Br\u00fcllen",
+        "image": "\/srv\/home\/www\/img\/items\/1\/5DN\/630.jpg",
+        "expansion": "Fifth Dawn",
+        "nr": "14",
+        "expIcon": "45",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:39+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456127,
+      "idProduct": 643,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.28,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Blessed Reversal",
+        "locName": "Blessed Reversal",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/643.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "7",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:11+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 429156861,
+      "idProduct": 656,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.41,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Glorious Anthem",
+        "locName": "Glorious Anthem",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/656.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "20",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T12:36:07+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 429153225,
+      "idProduct": 662,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.71,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Intrepid Hero",
+        "locName": "Intrepid Hero",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/662.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "26",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-10-21T21:15:40+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404973004,
+      "idProduct": 666,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.19,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Master Healer",
+        "locName": "Meisterheiler",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/666.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "30",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:46:41+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404972405,
+      "idProduct": 667,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.39,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Noble Purpose",
+        "locName": "Guter Zweck",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/667.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "31",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:45:19+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404972661,
+      "idProduct": 675,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.23,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Sacred Ground",
+        "locName": "Gesegneter Boden",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/675.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "39",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:53+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396967,
+      "idProduct": 682,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.1,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Solidarity",
+        "locName": "Solidarit\u00e4t",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/682.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "46",
+        "expIcon": "42",
+        "rarity": "Common"
+      },
+      "lastEdited": "2019-04-25T05:52:38+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404973032,
+      "idProduct": 686,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.34,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Story Circle",
+        "locName": "Sagenkreis",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/686.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "50",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:47:39+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456321,
+      "idProduct": 688,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.27,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Sunweb",
+        "locName": "Sunweb",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/688.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "52",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:48:11+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456869,
+      "idProduct": 693,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 4.21,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Worship",
+        "locName": "Worship",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/693.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "57",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:09+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404973759,
+      "idProduct": 696,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.12,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Archivist",
+        "locName": "Archivar",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/696.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "60",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-21T20:58:10+0200",
+      "condition": "GD",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404976133,
+      "idProduct": 698,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.16,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Balance of Power",
+        "locName": "Balance of Power",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/698.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "62",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:54+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404973685,
+      "idProduct": 703,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 1,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Coastal Piracy",
+        "locName": "K\u00fcstenr\u00e4uberei",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/703.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "67",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-21T20:57:21+0200",
+      "condition": "PL",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404974056,
+      "idProduct": 707,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.17,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Cowardice",
+        "locName": "Feigheit",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/707.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "71",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:48+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404974216,
+      "idProduct": 745,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.44,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Trade Routes",
+        "locName": "Handelsrouten",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/745.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "109",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:45:21+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396479,
+      "idProduct": 760,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.85,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Death Pit Offering",
+        "locName": "Todesgrubenopfer",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/760.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "124",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:52:40+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396438,
+      "idProduct": 763,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.1,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Deepwood Ghoul",
+        "locName": "Dunkelwaldghul",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/763.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "127",
+        "expIcon": "42",
+        "rarity": "Common"
+      },
+      "lastEdited": "2019-04-25T05:52:06+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404978304,
+      "idProduct": 767,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.21,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Eastern Paladin",
+        "locName": "Eastern Paladin",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/767.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "131",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:47:04+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404977513,
+      "idProduct": 775,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.24,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Larceny",
+        "locName": "Abkn\u00f6pfen",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/775.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "139",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:43:36+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405164781,
+      "idProduct": 810,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.22,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Zombify",
+        "locName": "Zombifizierung",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/810.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "174",
+        "expIcon": "42",
+        "rarity": "Uncommon"
+      },
+      "lastEdited": "2019-04-25T05:52:43+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404979840,
+      "idProduct": 815,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.22,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Bloodshot Cyclops",
+        "locName": "Blutaugenzyklop",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/815.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "179",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:43:47+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404981466,
+      "idProduct": 832,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.31,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Inferno",
+        "locName": "Inferno",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/832.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "196",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:45:30+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404979802,
+      "idProduct": 852,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.15,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Rukh Egg",
+        "locName": "Rukh-Ei",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/852.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "216",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:47:35+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405169948,
+      "idProduct": 865,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.74,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Two-Headed Dragon",
+        "locName": "Two-Headed Dragon",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/865.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "229",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:49:24+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404982496,
+      "idProduct": 886,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.25,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Fungusaur",
+        "locName": "Fungusaurus",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/886.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "250",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:50+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 429141987,
+      "idProduct": 921,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.42,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Verduran Enchantress",
+        "locName": "Bl\u00fctenzauberin",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/921.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "285",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T12:11:38+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404395945,
+      "idProduct": 947,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 5.99,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Planar Portal",
+        "locName": "Portal der Welten",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/947.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "311",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:52:13+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404985755,
+      "idProduct": 949,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.26,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Skull of Orm",
+        "locName": "Sch\u00e4del des Orm",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/949.jpg",
+        "expansion": "Eighth Edition",
+        "nr": "313",
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:48:06+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404976450,
+      "idProduct": 993,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.13,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Vizzerdrix",
+        "locName": "Vizzerdrix",
+        "image": "\/srv\/home\/www\/img\/items\/1\/8ED\/993.jpg",
+        "expansion": "Eighth Edition",
+        "nr": null,
+        "expIcon": "42",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:49:00+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 429155721,
+      "idProduct": 1001,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.41,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Decree of Justice",
+        "locName": "Decree of Justice",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1001.jpg",
+        "expansion": "Scourge",
+        "nr": "8",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T12:33:57+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404455963,
+      "idProduct": 1002,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.21,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Dimensional Breach",
+        "locName": "Dimensional Breach",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1002.jpg",
+        "expansion": "Scourge",
+        "nr": "9",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:10+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405169718,
+      "idProduct": 1005,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.52,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Eternal Dragon",
+        "locName": "Eternal Dragon",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1005.jpg",
+        "expansion": "Scourge",
+        "nr": "12",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:47+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456256,
+      "idProduct": 1007,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.27,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Force Bubble",
+        "locName": "Force Bubble",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1007.jpg",
+        "expansion": "Scourge",
+        "nr": "14",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:40+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404975929,
+      "idProduct": 1024,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.31,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Day of the Dragons",
+        "locName": "Day of the Dragons",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1024.jpg",
+        "expansion": "Scourge",
+        "nr": "31",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:48:35+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404975787,
+      "idProduct": 1028,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.35,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Faces of the Past",
+        "locName": "Faces of the Past",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1028.jpg",
+        "expansion": "Scourge",
+        "nr": "35",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:37+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405170495,
+      "idProduct": 1080,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.9,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Dragon Mage",
+        "locName": "Dragon Mage",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1080.jpg",
+        "expansion": "Scourge",
+        "nr": "87",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:19+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405170472,
+      "idProduct": 1081,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.89,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Dragon Tyrant",
+        "locName": "Dragon Tyrant",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1081.jpg",
+        "expansion": "Scourge",
+        "nr": "88",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:48:54+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 407778039,
+      "idProduct": 1083,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.42,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Dragonstorm",
+        "locName": "Dragonstorm",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1083.jpg",
+        "expansion": "Scourge",
+        "nr": "90",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:20+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 407052414,
+      "idProduct": 1131,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.47,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Karona, False God",
+        "locName": "Karona, False God",
+        "image": "\/srv\/home\/www\/img\/items\/1\/SCG\/1131.jpg",
+        "expansion": "Scourge",
+        "nr": "138",
+        "expIcon": "41",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:45+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456107,
+      "idProduct": 1633,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.55,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Akroma\u0027s Vengeance",
+        "locName": "Akroma\u0027s Vengeance",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1633.jpg",
+        "expansion": "Onslaught",
+        "nr": "2",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:09+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456001,
+      "idProduct": 1634,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.4,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Ancestor\u0027s Prophet",
+        "locName": "Ancestor\u0027s Prophet",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1634.jpg",
+        "expansion": "Onslaught",
+        "nr": "3",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:43+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404457061,
+      "idProduct": 1641,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.32,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Catapult Master",
+        "locName": "Catapult Master",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1641.jpg",
+        "expansion": "Onslaught",
+        "nr": "10",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:12+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404455825,
+      "idProduct": 1644,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.16,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Circle of Solace",
+        "locName": "Circle of Solace",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1644.jpg",
+        "expansion": "Onslaught",
+        "nr": "13",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:43+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404972553,
+      "idProduct": 1661,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.26,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Glarecaster",
+        "locName": "Strahlenwerfer",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1661.jpg",
+        "expansion": "Onslaught",
+        "nr": "30",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:45+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 429156462,
+      "idProduct": 1670,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 1.24,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Harsh Mercy",
+        "locName": "Harsh Mercy",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1670.jpg",
+        "expansion": "Onslaught",
+        "nr": "39",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T12:35:35+0200",
+      "condition": "LP",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404457029,
+      "idProduct": 1675,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.56,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Mobilization",
+        "locName": "Mobilization",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1675.jpg",
+        "expansion": "Onslaught",
+        "nr": "44",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:46:44+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404457077,
+      "idProduct": 1684,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 1.43,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Shared Triumph",
+        "locName": "Shared Triumph",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1684.jpg",
+        "expansion": "Onslaught",
+        "nr": "53",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:11+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404975761,
+      "idProduct": 1732,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.26,
+      "count": 4,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Peer Pressure",
+        "locName": "Peer Pressure",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1732.jpg",
+        "expansion": "Onslaught",
+        "nr": "101",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:45:18+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404975834,
+      "idProduct": 1747,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.23,
+      "count": 4,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Standardize",
+        "locName": "Standardize",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1747.jpg",
+        "expansion": "Onslaught",
+        "nr": "116",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-05-24T17:04:31+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404979195,
+      "idProduct": 1772,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.2,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Ebonblade Reaper",
+        "locName": "Ebonblade Reaper",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1772.jpg",
+        "expansion": "Onslaught",
+        "nr": "141",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:47+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 423015072,
+      "idProduct": 1800,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.2,
+      "count": 4,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Silent Specter",
+        "locName": "Silent Specter",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1800.jpg",
+        "expansion": "Onslaught",
+        "nr": "169",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:48:29+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404396344,
+      "idProduct": 1809,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 2.49,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Undead Gladiator",
+        "locName": "Untoter Gladiator",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1809.jpg",
+        "expansion": "Onslaught",
+        "nr": "178",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:52:41+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405163801,
+      "idProduct": 1843,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.68,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Gratuitous Violence",
+        "locName": "Gratuitous Violence",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1843.jpg",
+        "expansion": "Onslaught",
+        "nr": "212",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:44:56+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404981115,
+      "idProduct": 1845,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.23,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Kaboom!",
+        "locName": "Kaboom!",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1845.jpg",
+        "expansion": "Onslaught",
+        "nr": "214",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:35+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405164175,
+      "idProduct": 1937,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 2.68,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Cryptic Gateway",
+        "locName": "Cryptic Gateway",
+        "image": "\/srv\/home\/www\/img\/items\/1\/ONS\/1937.jpg",
+        "expansion": "Onslaught",
+        "nr": "306",
+        "expIcon": "39",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:46:17+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456236,
+      "idProduct": 1987,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.4,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Celestial Gatekeeper",
+        "locName": "Celestial Gatekeeper",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/1987.jpg",
+        "expansion": "Legions",
+        "nr": "6",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:12+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456062,
+      "idProduct": 1992,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.26,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Defender of the Order",
+        "locName": "Defender of the Order",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/1992.jpg",
+        "expansion": "Legions",
+        "nr": "11",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-05-24T17:04:32+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404975873,
+      "idProduct": 2028,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.17,
+      "count": 3,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Mistform Ultimus",
+        "locName": "Mistform Ultimus",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/2028.jpg",
+        "expansion": "Legions",
+        "nr": "47",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:46:45+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404975812,
+      "idProduct": 2032,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.28,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Riptide Mangler",
+        "locName": "Riptide Mangler",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/2032.jpg",
+        "expansion": "Legions",
+        "nr": "51",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:37+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404973710,
+      "idProduct": 2032,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.28,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Riptide Mangler",
+        "locName": "Springflut-Fleischrei\u00dfer",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/2032.jpg",
+        "expansion": "Legions",
+        "nr": "51",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:37+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404978788,
+      "idProduct": 2056,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.4,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Hollow Specter",
+        "locName": "Hollow Specter",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/2056.jpg",
+        "expansion": "Legions",
+        "nr": "75",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-05-24T17:04:30+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 405169972,
+      "idProduct": 2085,
+      "language": {
+        "idLanguage": 3,
+        "languageName": "German"
+      },
+      "comments": "",
+      "price": 0.77,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Kilnmouth Dragon",
+        "locName": "R\u00f6stschlund-Drache",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/2085.jpg",
+        "expansion": "Legions",
+        "nr": "104",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:47:37+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404984479,
+      "idProduct": 2107,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.21,
+      "count": 4,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Feral Throwback",
+        "locName": "Feral Throwback",
+        "image": "\/srv\/home\/www\/img\/items\/1\/LGN\/2107.jpg",
+        "expansion": "Legions",
+        "nr": "126",
+        "expIcon": "40",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:49:20+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404395671,
+      "idProduct": 2130,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.22,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Battlewise Aven",
+        "locName": "Battlewise Aven",
+        "image": "\/srv\/home\/www\/img\/items\/1\/JUD\/2130.jpg",
+        "expansion": "Judgment",
+        "nr": "4",
+        "expIcon": "38",
+        "rarity": "Common"
+      },
+      "lastEdited": "2019-06-28T13:56:35+0200",
+      "condition": "EX",
+      "isFoil": true,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404455902,
+      "idProduct": 2137,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.73,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Glory",
+        "locName": "Glory",
+        "image": "\/srv\/home\/www\/img\/items\/1\/JUD\/2137.jpg",
+        "expansion": "Judgment",
+        "nr": "11",
+        "expIcon": "38",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-18T23:45:10+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 423015498,
+      "idProduct": 2138,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.29,
+      "count": 4,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Golden Wish",
+        "locName": "Golden Wish",
+        "image": "\/srv\/home\/www\/img\/items\/1\/JUD\/2138.jpg",
+        "expansion": "Judgment",
+        "nr": "12",
+        "expIcon": "38",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-28T13:56:38+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456343,
+      "idProduct": 2141,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.41,
+      "count": 1,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Nomad Mythmaker",
+        "locName": "Nomad Mythmaker",
+        "image": "\/srv\/home\/www\/img\/items\/1\/JUD\/2141.jpg",
+        "expansion": "Judgment",
+        "nr": "15",
+        "expIcon": "38",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-04-25T05:47:38+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    },
+    {
+      "idArticle": 404456701,
+      "idProduct": 2145,
+      "language": {
+        "idLanguage": 1,
+        "languageName": "English"
+      },
+      "comments": "",
+      "price": 0.41,
+      "count": 2,
+      "inShoppingCart": false,
+      "product": {
+        "idGame": 1,
+        "enName": "Pulsemage Advocate",
+        "locName": "Pulsemage Advocate",
+        "image": "\/srv\/home\/www\/img\/items\/1\/JUD\/2145.jpg",
+        "expansion": "Judgment",
+        "nr": "19",
+        "expIcon": "38",
+        "rarity": "Rare"
+      },
+      "lastEdited": "2019-06-14T11:17:43+0200",
+      "condition": "EX",
+      "isFoil": false,
+      "isSigned": false,
+      "isPlayset": false,
+      "isAltered": false
+    }
+  ]
+}
