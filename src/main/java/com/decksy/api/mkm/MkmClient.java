@@ -60,9 +60,7 @@ public class MkmClient {
       throw new HttpException(connection.getResponseCode());
     }
 
-    InputStream inputStream = connection.getInputStream();
-    inputStreamToString(inputStream);
-    return inputStream;
+    return connection.getInputStream();
   }
 
   private static boolean isSuccessful(int responseCode) {

@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 @Singleton
-public class StockServiceImpl {
+public class StockServiceImpl implements StockService {
 
   private final MkmClient mkmClient;
   private final ObjectMapper objectMapper;
@@ -22,10 +22,11 @@ public class StockServiceImpl {
   public StockServiceImpl(MkmClient mkmClient) {
     this.mkmClient = mkmClient;
 
-    this.objectMapper = new ObjectMapper();
+    objectMapper = new ObjectMapper();
     objectMapper.registerModule(new JavaTimeModule());
   }
 
+  @Override
   public List<Article> getStock() throws IOException, HttpException {
     List<Article> stock = new ArrayList<>();
 

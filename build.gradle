@@ -35,6 +35,7 @@ configurations {
 ext {
     micronautDataVersion = "1.0.0.M4"
     micronautVersion = "1.2.5"
+    mapstructVersion = "1.3.1.Final"
 }
 
 sonarqube {
@@ -48,6 +49,7 @@ dependencies {
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
     annotationProcessor "io.micronaut.data:micronaut-data-processor:$micronautDataVersion"
+    annotationProcessor "org.mapstruct:mapstruct-processor:$mapstructVersion"
 
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     implementation "io.micronaut:micronaut-inject"
@@ -56,8 +58,10 @@ dependencies {
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut:micronaut-http-client"
     implementation "io.micronaut.data:micronaut-data-hibernate-jpa:$micronautDataVersion", {
-        exclude group:"io.micronaut.configuration", module:"micronaut-hibernate-jpa-spring"
+        exclude group: "io.micronaut.configuration", module: "micronaut-hibernate-jpa-spring"
     }
+    implementation "org.mapstruct:mapstruct:$mapstructVersion"
+
 
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
     runtimeOnly "com.h2database:h2"
@@ -81,7 +85,7 @@ mainClassName = "com.decksy.Application"
 test {
     useJUnitPlatform()
 }
-tasks.withType(JavaCompile){
+tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
     options.compilerArgs.add('-parameters')
 }
@@ -92,7 +96,7 @@ shadowJar {
 
 hibernate {
     enhance {
-        enableLazyInitialization= true
+        enableLazyInitialization = true
         enableDirtyTracking = true
         enableAssociationManagement = true
     }

@@ -1,13 +1,14 @@
 package com.decksy.domain;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -25,7 +26,7 @@ public class Price {
 
   @ManyToOne private Article article;
 
-  private BigDecimal price;
+  private Double price;
 
   public Long getId() {
     return id;
@@ -63,12 +64,28 @@ public class Price {
     return this;
   }
 
-  public BigDecimal getPrice() {
+  public Double getPrice() {
     return price;
   }
 
-  public Price setPrice(BigDecimal price) {
+  public Price setPrice(Double price) {
     this.price = price;
     return this;
+  }
+
+  @Override
+  public String toString() {
+    return "Price{"
+        + "id="
+        + id
+        + ", createDateTime="
+        + createDateTime
+        + ", updateDateTime="
+        + updateDateTime
+        + ", article="
+        + article
+        + ", price="
+        + price
+        + '}';
   }
 }

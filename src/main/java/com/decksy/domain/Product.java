@@ -1,15 +1,18 @@
 package com.decksy.domain;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
 import java.time.LocalDateTime;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+
+import com.fasterxml.jackson.annotation.JsonAlias;
 
 @Entity
 @Table(name = "products")
@@ -104,5 +107,30 @@ public class Product {
   public Product setRarity(String rarity) {
     this.rarity = rarity;
     return this;
+  }
+
+  @Override
+  public String toString() {
+    return "Product{"
+        + "id="
+        + id
+        + ", createDateTime="
+        + createDateTime
+        + ", updateDateTime="
+        + updateDateTime
+        + ", article="
+        + article
+        + ", productId="
+        + productId
+        + ", name='"
+        + name
+        + '\''
+        + ", expansion='"
+        + expansion
+        + '\''
+        + ", rarity='"
+        + rarity
+        + '\''
+        + '}';
   }
 }

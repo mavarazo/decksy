@@ -1,16 +1,18 @@
 package com.decksy.api.mkm.account;
 
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.inject.Singleton;
+
 import com.decksy.api.mkm.HttpException;
 import com.decksy.api.mkm.MkmClient;
 import com.decksy.api.mkm.Response;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import java.io.IOException;
-import java.io.InputStream;
-import javax.inject.Singleton;
 
 @Singleton
-public class AccountServiceImpl {
+public class AccountServiceImpl implements AccountService {
 
   private final MkmClient mkmClient;
 
@@ -18,6 +20,7 @@ public class AccountServiceImpl {
     this.mkmClient = mkmClient;
   }
 
+  @Override
   public Account getAccount() throws IOException, HttpException {
     InputStream response = mkmClient.get("/account");
     ObjectMapper objectMapper = new ObjectMapper();

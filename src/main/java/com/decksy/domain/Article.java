@@ -1,10 +1,9 @@
 package com.decksy.domain;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,8 +11,12 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "articles")
@@ -177,5 +180,41 @@ public class Article {
   public Article setPrices(Set<Price> prices) {
     this.prices = prices;
     return this;
+  }
+
+  @Override
+  public String toString() {
+    return "Article{"
+        + "id="
+        + id
+        + ", createDateTime="
+        + createDateTime
+        + ", updateDateTime="
+        + updateDateTime
+        + ", articleId="
+        + articleId
+        + ", count="
+        + count
+        + ", languageId="
+        + languageId
+        + ", comments='"
+        + comments
+        + '\''
+        + ", condition='"
+        + condition
+        + '\''
+        + ", isFoil="
+        + isFoil
+        + ", isSigned="
+        + isSigned
+        + ", isAltered="
+        + isAltered
+        + ", isPlayset="
+        + isPlayset
+        + ", product="
+        + product
+        + ", prices="
+        + prices
+        + '}';
   }
 }
