@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{layout :: layout(~{::title}, ~{::section})}"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Articles</title>
+</head>
+<body>
+<section>
+  <table>
+    <thead>
+    </thead>
+    <tbody th:each="article : ${articles}">
+    <tr>
+      <td th:text="${article.product.name}">...</td>
+      <td th:text="${article.latestPrice}">...</td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+</body>
+</html>

@@ -1,6 +1,13 @@
 micronaut:
   application:
     name: com.decksy
+  views:
+    folder: templates
+    router:
+      static-resources:
+        static:
+          paths: classpath:static
+          mapping: /resources/**
 mkm:
   accessTokenSecret: ${ACCESS_TOKEN_SECRET}
   accessTokenApp: ${ACCESS_TOKEN}

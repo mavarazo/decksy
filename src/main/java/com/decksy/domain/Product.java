@@ -1,18 +1,14 @@
 package com.decksy.domain;
 
 import java.time.LocalDateTime;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-
-import com.fasterxml.jackson.annotation.JsonAlias;
 
 @Entity
 @Table(name = "products")
@@ -28,10 +24,8 @@ public class Product {
 
   @OneToOne private Article article;
 
-  @JsonAlias(value = "idProduct")
   private Long productId;
 
-  @JsonAlias(value = "name_en")
   private String name;
 
   private String expansion;

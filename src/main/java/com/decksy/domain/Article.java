@@ -3,20 +3,17 @@ package com.decksy.domain;
 import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
-
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-
-import com.fasterxml.jackson.annotation.JsonAlias;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "articles")
@@ -30,14 +27,9 @@ public class Article {
 
   @UpdateTimestamp private LocalDateTime updateDateTime;
 
-  @JsonAlias(value = "idArticle")
   private Long articleId;
-
   private Integer count;
-
-  @JsonAlias(value = "languageId")
   private Long languageId;
-
   private String comments;
   private String condition;
   private Boolean isFoil;
@@ -45,9 +37,9 @@ public class Article {
   private Boolean isAltered;
   private Boolean isPlayset;
 
-  @JsonIgnore @ManyToOne private Product product;
+  @OneToOne(mappedBy = "article")
+  private Product product;
 
-  @JsonIgnore
   @OneToMany(mappedBy = "article")
   private Set<Price> prices = new HashSet<>();
 
@@ -172,13 +164,13 @@ public class Article {
     return prices;
   }
 
-  public Article addPrice(Price price) {
-    this.prices.add(price);
+  public Article setPrices(Set<Price> prices) {
+    this.prices = prices;
     return this;
   }
 
-  public Article setPrices(Set<Price> prices) {
-    this.prices = prices;
+  public Article addPrice(Price price) {
+    this.prices.add(price);
     return this;
   }
 

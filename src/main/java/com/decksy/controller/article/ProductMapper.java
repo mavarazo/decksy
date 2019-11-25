@@ -1,5 +1,6 @@
-package com.decksy.domain;
+package com.decksy.controller.article;
 
+import com.decksy.domain.Product;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;
@@ -18,4 +19,6 @@ public interface ProductMapper {
   @Mapping(source = "rarity", target = "rarity")
   @Mapping(target = "updateDateTime", ignore = true)
   Product toDomain(com.decksy.api.mkm.stock.Product source);
+
+  ProductDto toDto(Product source);
 }

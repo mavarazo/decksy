@@ -1,5 +1,6 @@
-package com.decksy.domain;
+package com.decksy.controller.article;
 
+import com.decksy.domain.Article;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;
@@ -7,7 +8,7 @@ import org.mapstruct.factory.Mappers;
 
 @Mapper(
     unmappedTargetPolicy = ReportingPolicy.ERROR,
-    uses = {ProductMapper.class})
+    uses = {ProductMapper.class, PriceMapper.class})
 public interface ArticleMapper {
   ArticleMapper INSTANCE = Mappers.getMapper(ArticleMapper.class);
 
@@ -26,4 +27,7 @@ public interface ArticleMapper {
   @Mapping(source = "isSigned", target = "signed")
   @Mapping(target = "updateDateTime", ignore = true)
   Article toDomain(com.decksy.api.mkm.stock.Article source);
+
+  @Mapping(target = "latestPrice", ignore = true)
+  ArticleDto toDto(Article source);
 }
