@@ -1,10 +1,11 @@
 package com.decksy.controller.article;
 
-import com.decksy.domain.Article;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;
+
+import com.decksy.domain.Article;
 
 @Mapper(
     unmappedTargetPolicy = ReportingPolicy.ERROR,
@@ -29,5 +30,6 @@ public interface ArticleMapper {
   Article toDomain(com.decksy.api.mkm.stock.Article source);
 
   @Mapping(target = "latestPrice", ignore = true)
+  @Mapping(target = "priceGuide", ignore = true)
   ArticleDto toDto(Article source);
 }

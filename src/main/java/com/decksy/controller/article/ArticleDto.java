@@ -22,6 +22,7 @@ public class ArticleDto {
   private ProductDto product;
   private Double latestPrice;
   private Set<PriceDto> prices = new HashSet<>();
+  private PriceGuideDto priceGuide;
 
   public Long getId() {
     return id;
@@ -155,6 +156,15 @@ public class ArticleDto {
 
   public ArticleDto setPrices(Set<PriceDto> prices) {
     this.prices = prices;
+    return this;
+  }
+
+  public PriceGuideDto getPriceGuide() {
+    return priceGuide;
+  }
+
+  public ArticleDto setPriceGuide(PriceGuideDto priceGuide) {
+    this.priceGuide = priceGuide;
     return this;
   }
 }

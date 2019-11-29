@@ -1,0 +1,71 @@
+{
+  "product": {
+    "idProduct": 14,
+    "idMetaproduct": 3374,
+    "countReprints": 1,
+    "enName": "Loxodon Punisher",
+    "locName": "Loxodon-Bestrafer",
+    "localization": [
+      {
+        "name": "Loxodon Punisher",
+        "idLanguage": "1",
+        "languageName": "English"
+      },
+      {
+        "name": "Ch\u00e2tieur loxodon",
+        "idLanguage": "2",
+        "languageName": "French"
+      },
+      {
+        "name": "Loxodon-Bestrafer",
+        "idLanguage": "3",
+        "languageName": "German"
+      },
+      {
+        "name": "Castigador loxod\u00f3n",
+        "idLanguage": "4",
+        "languageName": "Spanish"
+      },
+      {
+        "name": "Giustiziere Lossodonte",
+        "idLanguage": "5",
+        "languageName": "Italian"
+      }
+    ],
+    "website": "\/en\/Magic\/Products\/Singles\/Mirrodin\/Loxodon-Punisher",
+    "image": "\/srv\/home\/www\/img\/items\/1\/MRD\/14.jpg",
+    "gameName": "Magic the Gathering",
+    "categoryName": "Magic Single",
+    "idGame": "1",
+    "number": "14",
+    "rarity": "Rare",
+    "expansion": {
+      "idExpansion": 45,
+      "enName": "Mirrodin",
+      "expansionIcon": 43
+    },
+    "priceGuide": {
+      "SELL": 0.22,
+      "LOW": 0.02,
+      "LOWEX": 0.02,
+      "LOWFOIL": 0.45,
+      "AVG": 0.36,
+      "TREND": 0.29,
+      "TRENDFOIL": 1
+    },
+    "countArticles": 2461,
+    "countFoils": 80,
+    "links": [
+      {
+        "rel": "self",
+        "href": "\/products\/14",
+        "method": "GET"
+      },
+      {
+        "rel": "articles",
+        "href": "\/articles\/14",
+        "method": "GET"
+      }
+    ]
+  }
+}
