@@ -1,0 +1,23 @@
+mkm:
+  accessTokenSecret: ${ACCESS_TOKEN_SECRET}
+  accessTokenApp: ${ACCESS_TOKEN}
+  appSecret: ${APP_SECRET}
+  appToken: ${APP_TOKEN}
+  apiVersion: 2.0
+  apiUrl: https://api.cardmarket.com/ws/v
+
+datasources:
+  default:
+    url: ${JDBC_URL:`jdbc:h2:~/Downloads/decky_database;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE`}
+    username: ${JDBC_USER:sa}
+    password: ${JDBC_PASSWORD:""}
+    driverClassName: ${JDBC_DRIVER:org.h2.Driver}
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        show_sql: true
+

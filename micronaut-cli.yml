@@ -1,5 +1,0 @@
-profile: service
-defaultPackage: com.decksy
----
-testFramework: junit
-sourceLanguage: java
