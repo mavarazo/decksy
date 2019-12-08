@@ -10,10 +10,13 @@ import com.mav.decksy.repository.ArticleRepository;
 import com.mav.decksy.repository.PriceRepository;
 import com.mav.decksy.repository.ProductRepository;
 import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/rest/mkm/stock")
+@RestController
+@RequestMapping("/rest/mkm/stock")
 public class MkmStockRestController {
 
   private final StockService stockService;
@@ -21,6 +24,7 @@ public class MkmStockRestController {
   private final PriceRepository priceRepository;
   private final ProductRepository productRepository;
 
+  @Autowired
   MkmStockRestController(
       StockService stockService,
       ArticleRepository articleRepository,

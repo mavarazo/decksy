@@ -1,16 +1,26 @@
 package com.mav.decksy.controller.article;
 
-import java.util.Collections;
+import com.mav.decksy.service.ArticleService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller("/articles")
+@Controller
+@RequestMapping("/articles")
 public class ArticleController {
+
+  private final ArticleService articleService;
+
+  @Autowired
+  public ArticleController(ArticleService articleService) {
+    this.articleService = articleService;
+  }
 
   @GetMapping(value = "/")
   public String index(Model model) {
-    model.addAttribute("articles", Collections.emptyList());
+    model.addAttribute("articles", articleService.findAll());
     return "articles/index";
   }
 }
