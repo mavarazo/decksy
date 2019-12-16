@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html th:fragment="layout (title, content)" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title th:replace="${title}">Layout Title</title>
+  <title th:replace="${title}">Layout Title</title>
+
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+
+  <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css"/>
+  <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css"/>
+
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
+
 </head>
 <body>
 <h1>Layout H1</h1>
 <div th:replace="${content}">
-    <p>Layout content</p>
+  <p>Layout content</p>
 </div>
 <footer>
-    Layout footer
+  Layout footer
 </footer>
 </body>
 </html>

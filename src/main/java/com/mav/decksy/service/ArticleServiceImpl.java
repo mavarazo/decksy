@@ -6,9 +6,7 @@ import com.mav.decksy.controller.article.ArticleMapper;
 import com.mav.decksy.controller.article.PriceDto;
 import com.mav.decksy.controller.article.PriceGuideDto;
 import com.mav.decksy.controller.article.PriceGuideMapper;
-import com.mav.decksy.model.Article;
 import com.mav.decksy.repository.ArticleRepository;
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
@@ -32,19 +30,16 @@ public class ArticleServiceImpl implements ArticleService {
 
   @Override
   public List<ArticleDto> findAll() {
-    List<Article> articles = new ArrayList();
-    articleRepository.findAll().forEach(articles::add);
-    return articles.stream()
+    return articleRepository.findAll().stream()
         .map(
             article -> {
               ArticleDto articleDto = ArticleMapper.INSTANCE.toDto(article);
 
               getLatestPrice(articleDto)
                   .ifPresent(priceDto -> articleDto.setLatestPrice(priceDto.getPrice()));
-              getPriceGuide(articleDto)
-                  .ifPresent(priceGuideDto -> articleDto.setPriceGuide(priceGuideDto));
               return articleDto;
             })
+        .sorted(Comparator.comparing(ArticleDto::getLatestPrice).reversed())
         .collect(Collectors.toList());
   }
 
